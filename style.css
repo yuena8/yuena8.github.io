@@ -1,9 +1,12 @@
 h1 {
 	color:purple;
-  font-family: arial black;
+	font-family: arial black;
 }
 h2 {
-  font-family: arial;
+	font-family: arial;
+}
+h3 {
+	font-family: arial;
 }
 p {
   font-family: arial;
@@ -27,4 +30,8 @@ ul {
 }
 .navigation{
 	margin-left:25%;
+	width:25%;
+}
+.content{
+	width:75%;
 }
