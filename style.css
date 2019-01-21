@@ -1,0 +1,24 @@
+h1 {
+	color:purple;
+  font-family: arial black;
+}
+h2 {
+  font-family: arial;
+}
+p {
+  font-family: Lucida Grande;
+}
+table {
+    font-family: arial black;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:first-child{
+    color:purple;
+}
