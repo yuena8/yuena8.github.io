@@ -7,7 +7,6 @@ h2 {
 }
 p {
   font-family: arial;
-  font-size: 12px;
 }
 table {
     font-family: arial black;
@@ -22,4 +21,10 @@ tr:nth-child(even) {
 }
 tr:first-child{
     color:purple;
+}
+ul {
+	font-family: arial;
+}
+.navigation{
+	margin-left:25%;
 }
