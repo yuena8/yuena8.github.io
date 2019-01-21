@@ -29,9 +29,11 @@ ul {
 	font-family: arial;
 }
 .navigation{
-	margin-left:25%;
+  float:left;
 	width:25%;
 }
 .content{
-	width:75%;
+  margin-left:35%;
+  width:75%;
+  
 }
