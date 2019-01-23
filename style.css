@@ -97,12 +97,12 @@ section li{
 
 .collections li{
 	list-style-type: none;
-	padding: 0.5em 0.5em;
+	padding: 5px;
 	display:block;
 	background-color: #BCBCBC;
 	color: #F0F0F0;
 	max-width: 250px;
-	
+	text-align:center;
 }
 .collections ul{
 	padding: 5px;
