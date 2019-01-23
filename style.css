@@ -16,6 +16,10 @@ body {
 	color: white; 
 	background: silver;
 }
+
+img{
+	max-width: 250px;
+}
 a {
 	color:#AEAEAE;
 	text-decoration:none;
