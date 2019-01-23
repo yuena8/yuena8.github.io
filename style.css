@@ -97,7 +97,7 @@ section li{
 
 .collections li{
 	list-style-type: none;
-	padding: 5px;
+	padding: 0.5em 0.5em;
 	display:block;
 	background-color: #BCBCBC;
 	color: #F0F0F0;
