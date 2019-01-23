@@ -1,17 +1,25 @@
 body {
-  background-image: url("https://yuena8.github.io/marble.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-image: url("https://yuena8.github.io/marble.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
+a {
+	color:#AEAEAE;
+}
+a:hover{
+	color: #757575;
+}
 h1 {
 	color:#757575
 	font-family: arial black;
 }
 h2 {
+	color:#757575
 	font-family: arial;
 }
 h3 {
+	color:#757575
 	font-family: arial;
 }
 p {
