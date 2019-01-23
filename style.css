@@ -1,3 +1,9 @@
+body {
+  background-image: url("https://yuena8.github.io/marble.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
 	color:purple;
 	font-family: arial black;
