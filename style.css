@@ -95,14 +95,20 @@ tr:first-child{
 }
 
 .habit tr:first-child{
-	color: #757575
+	color: #757575;
 }
 
 .weekly tr:first-child{
 	color: #757575;
 }
+
 .weekly th:nth-child(2){
 	width: 300px;
+}
+
+.weekly table{
+	padding: 10px;
+	margin: 10px;
 }
 
 section li{
