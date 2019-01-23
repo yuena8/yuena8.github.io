@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-	color:purple;
+	color:#757575
 	font-family: arial black;
 }
 h2 {
@@ -25,11 +25,11 @@ td, th {
     text-align: center;
     padding: 10px;
 }
-tr:nth-child(even) {
-    background-color: #dddddd;
+tr {
+    background-color: #BCBCBC;
 }
 tr:first-child{
-    color:purple;
+    color:#757575
 }
 ul {
 	font-family: arial;
@@ -47,16 +47,17 @@ ul {
 #main > article {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #8888bb;
+	border: 1px solid #757575;
 	border-radius: 7pt;
 	max-width: 800px;
 	flex: 3 1 90%;
 	order: 2;
+	background:#F0F0F0;
 }
 #main > nav {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #8888bb;
+	border: 1px solid #757575;
 	border-radius: 7pt;
 	max-width: 150px;
 	flex: 1 6 10%;
