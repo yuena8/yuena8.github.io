@@ -34,12 +34,29 @@ tr:first-child{
 ul {
 	font-family: arial;
 }
-.navigation{
-  float:left;
-	width:25%;
+
+#main {
+	min-height: 300px;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-flow: row;
 }
-.content{
-  margin-left:25%;
-  width:70%;
-  
+#main > article {
+	margin: 4px;
+	padding: 5px;
+	border: 1px solid #cccc33;
+	border-radius: 7pt;
+	background: #dddd88;
+	flex: 3 1 60%;
+	order: 2;
+}
+#main > nav {
+	margin: 4px;
+	padding: 5px;
+	border: 1px solid #8888bb;
+	border-radius: 7pt;
+	background: #ccccff;
+	flex: 1 6 20%;
+	order: 1;
 }
