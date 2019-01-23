@@ -10,6 +10,7 @@ body {
 
 a {
 	color:#AEAEAE;
+  text-decoration:none;
 }
 a:hover{
 	color: #757575;
@@ -48,13 +49,20 @@ tr:first-child{
 
 li a {
 	display: block;
+  font-family: arial black;
+  padding: 10px 5px;
 }
 nav {
 	background-color:rgba(255,255,255,.8);
 }
 
 nav ul{
-	list-style-type:none;
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top:15px;
+  width: 150px;
+  
 }
 
 nav li a:hover {
@@ -74,18 +82,18 @@ nav li a:hover {
 #main > article {
 	margin: 4px;
 	padding: 30px;
-	border: 1px solid #757575;
-	border-radius: 7pt;
-	max-width: 800px;
+	border-radius: 15pt;
+	max-width: 770px;
 	flex: 3 1 90%;
 	order: 2;
 	background:#F0F0F0;
+  background-color:rgba(255,255,255,.9);
 }
 #main > nav {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #757575;
-	border-radius: 7pt;
+	border: 1px solid #fff;
+	border-radius: 15pt;
 	max-width: 150px;
 	flex: 1 6 10%;
 	order: 1;
@@ -105,4 +113,22 @@ nav li a:hover {
 		min-height: 50px;
 		max-height: 50px;
 	}
+}
+header{
+    display: block;
+	background-image: url("https://yuena8.github.io/book.jpg");
+  	background-repeat: no-repeat;
+    background-size:auto;
+	background-attachment: scroll;
+	max-height:284px;
+	margin: 0 auto;
+	padding: 0px;
+	min-height: 284px;
+	border-radius: 15pt;
+	background-color:rgba(255,255,255,.7);
+	max-width: 1000px;
+	text-align:center;
+	font-family: arial black;
+	font-size: 30px;
+	color:#AEAEAE;
 }
