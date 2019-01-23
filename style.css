@@ -18,13 +18,32 @@ a:hover{
 h1 {
 	color:#757575;
 	font-family: arial black;
+  letter-spacing: 5px;
 }
 h2 {
 	color:#757575;
 	font-family: arial black;
+  letter-spacing: 5px;
 }
 h3 {
 	color:#757575;
+  letter-spacing: 5px;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+h2::first-letter {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3::first-letter {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 table {
@@ -42,11 +61,18 @@ tr {
 th:hover{
 	color: #ffffff;
 }
+
 tr:first-child{
     color:#F0F0F0
 }
 
 
+section li{
+  list-style-type: circle;
+  padding: 5px;
+  font-size: 14px;
+
+}
 li a {
 	display: block;
   font-family: arial black;
@@ -115,20 +141,20 @@ nav li a:hover {
 	}
 }
 header{
-    display: block;
-	background-image: url("https://yuena8.github.io/book.jpg");
+        display: block;
+    	background-image: url("https://yuena8.github.io/book.jpg");
   	background-repeat: no-repeat;
     background-size:auto;
 	background-attachment: scroll;
-	max-height:284px;
-	margin: 0 auto;
-	padding: 0px;
-	min-height: 284px;
-	border-radius: 15pt;
-	background-color:rgba(255,255,255,.7);
-	max-width: 1000px;
-	text-align:center;
-	font-family: arial black;
-	font-size: 30px;
-	color:#AEAEAE;
-}
+        max-height:284px;
+        margin: 0 auto;
+        padding: 0px;
+        min-height: 284px;
+        border-radius: 15pt;
+        background-color:rgba(255,255,255,.7);
+        max-width: 1000px;
+        text-align:center;
+        font-family: arial black;
+        font-size: 30px;
+        color:#AEAEAE;
+    }
