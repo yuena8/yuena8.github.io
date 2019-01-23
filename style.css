@@ -21,6 +21,11 @@ img{
 	max-width: 250px;
 	filter:grayscale(80%);
 }
+
+img:hover{
+	opacity:0.3;
+}
+
 a {
 	color:#AEAEAE;
 	text-decoration:none;
