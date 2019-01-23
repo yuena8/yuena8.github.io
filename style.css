@@ -20,6 +20,7 @@ p {
 table {
     font-family: arial black;
     border-collapse: collapse;
+	color:#757575;
 }
 td, th {
     text-align: center;
@@ -29,7 +30,7 @@ tr {
     background-color: #BCBCBC;
 }
 tr:first-child{
-    color:#757575
+    color:#F0F0F0
 }
 ul {
 	font-family: arial;
