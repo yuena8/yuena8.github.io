@@ -46,10 +46,10 @@ ul {
 #main > article {
 	margin: 4px;
 	padding: 5px;
-	border: 1px solid #cccc33;
+	border: 1px solid #8888bb;
 	border-radius: 7pt;
 
-	flex: 3 1 80%;
+	flex: 3 1 90%;
 	order: 2;
 }
 #main > nav {
@@ -58,7 +58,7 @@ ul {
 	border: 1px solid #8888bb;
 	border-radius: 7pt;
 
-	flex: 1 6 20%;
+	flex: 1 6 10%;
 	order: 1;
 }
 
