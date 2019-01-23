@@ -47,6 +47,10 @@ ul {
 li a {
 	display: block;
 }
+
+nav ul{
+	list-style-type:none;
+}
 /* Flexbox code from lecture 05 */
 #main {
 	min-height: 300px;
