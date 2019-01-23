@@ -42,13 +42,14 @@ ul {
 	display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
+	max-width: 750px;
 }
 #main > article {
 	margin: 4px;
 	padding: 5px;
 	border: 1px solid #8888bb;
 	border-radius: 7pt;
-
+	max-width: 600px;
 	flex: 3 1 90%;
 	order: 2;
 }
@@ -57,7 +58,7 @@ ul {
 	padding: 5px;
 	border: 1px solid #8888bb;
 	border-radius: 7pt;
-
+	max-width: 150px;
 	flex: 1 6 10%;
 	order: 1;
 }
