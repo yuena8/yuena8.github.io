@@ -21,9 +21,12 @@ img{
 	max-width: 250px;
 	filter:grayscale(80%);
 }
+img{
+	opacity:0.5;
+}
 
 img:hover{
-	opacity:0.3;
+	opacity:1;
 }
 
 a {
