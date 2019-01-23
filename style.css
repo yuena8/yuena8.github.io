@@ -52,7 +52,6 @@ ul {
 	flex-flow: row;
 	flex-wrap: wrap;
 	max-width: 950px;
-	align-items: center;
 	justify-content: center;
 }
 #main > article {
