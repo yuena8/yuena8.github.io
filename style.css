@@ -1,3 +1,7 @@
+*{
+	font-family:arial;
+}
+
 body {
 	background-image: url("https://yuena8.github.io/marble.png");
 	background-repeat: no-repeat;
@@ -11,20 +15,16 @@ a:hover{
 	color: #757575;
 }
 h1 {
-	color:#757575
+	color:#757575;
 	font-family: arial black;
 }
 h2 {
-	color:#757575
-	font-family: arial;
+	color:#757575;
 }
 h3 {
-	color:#757575
-	font-family: arial;
+	color:#757575;
 }
-p {
-  font-family: arial;
-}
+
 table {
     font-family: arial black;
     border-collapse: collapse;
@@ -43,9 +43,7 @@ th:hover{
 tr:first-child{
     color:#F0F0F0
 }
-ul {
-	font-family: arial;
-}
+
 
 li a {
 	display: block;
@@ -54,6 +52,7 @@ li a {
 nav ul{
 	list-style-type:none;
 }
+
 /* Flexbox code from lecture 05 */
 #main {
 	min-height: 300px;
@@ -65,7 +64,7 @@ nav ul{
 }
 #main > article {
 	margin: 4px;
-	padding: 5px;
+	padding: 30px;
 	border: 1px solid #757575;
 	border-radius: 7pt;
 	max-width: 800px;
