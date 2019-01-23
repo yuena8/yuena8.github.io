@@ -19,6 +19,7 @@ body {
 
 img{
 	max-width: 250px;
+	filter:grayscale(80%);
 }
 a {
 	color:#AEAEAE;
