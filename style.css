@@ -80,6 +80,7 @@ nav ul{
 	max-width: 150px;
 	flex: 1 6 10%;
 	order: 1;
+	opacity:0.8;
 }
 
 @media all and (max-width: 640px) {
