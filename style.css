@@ -37,6 +37,9 @@ td, th {
 tr {
     background-color: #BCBCBC;
 }
+th:hover{
+	color: #ffffff;
+}
 tr:first-child{
     color:#F0F0F0
 }
