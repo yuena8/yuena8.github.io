@@ -115,7 +115,13 @@ tr:first-child{
 .weekly tr,th{
 	padding: 20px;
 }
-
+.weekly table{
+	border:none;
+}
+.weekly th:hover{
+	border: 1px solid #f0f0f0;
+	color: #757575;
+}
 section li{
   list-style-type: circle;
   padding: 5px;
