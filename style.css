@@ -101,11 +101,12 @@ section li{
 	display:block;
 	background-color: #BCBCBC;
 	color: #F0F0F0;
-	max-width: 50px;
+	max-width: 100px;
 	
 }
 .collections ul{
 	padding: 5px;
+	margin: 5px;
 }
 li a {
 	display: block;
