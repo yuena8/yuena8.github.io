@@ -112,6 +112,7 @@ tr:first-child{
 	width: 300px;
 	background-color:white;
 	text-align:left;
+	text-transform:capitalize;
 }
 
 .weekly tr,th{
