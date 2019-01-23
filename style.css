@@ -49,6 +49,7 @@ h3::first-letter {
 table {
     font-family: arial black;
     border-collapse: collapse;
+  border: #757575;
 	color:#757575;
 }
 td, th {
@@ -60,6 +61,7 @@ tr {
 }
 th:hover{
 	color: #ffffff;
+  border: 1px solid #757575;
 }
 
 tr:first-child{
@@ -80,6 +82,7 @@ li a {
 }
 nav {
 	background-color:rgba(255,255,255,.8);
+ 
 }
 
 nav ul{
