@@ -110,6 +110,7 @@ tr:first-child{
 
 .weekly th:nth-child(2){
 	width: 300px;
+	background-color:white;
 }
 
 .weekly tr,th{
