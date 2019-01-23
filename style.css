@@ -7,7 +7,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
   color: white; 
   background: silver;
 }
@@ -29,7 +29,7 @@ mark{
   border-radius: 50%;
   
 }
-}
+
 h1 {
 	color:#757575;
 	font-family: arial black;
