@@ -48,6 +48,9 @@ tr:first-child{
 li a {
 	display: block;
 }
+nav {
+	background-color:rgba(255,255,255,.8);
+}
 
 nav ul{
 	list-style-type:none;
