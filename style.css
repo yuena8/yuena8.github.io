@@ -102,13 +102,18 @@ tr:first-child{
 	color: #757575;
 }
 
+.weekly th:first-child{
+	font-family:arial black;
+	font-size: 1.5em;
+	color: #F0F0F0
+}
+
 .weekly th:nth-child(2){
 	width: 300px;
 }
 
-.weekly table{
-	padding: 10px;
-	margin: 10px;
+.weekly tr,th{
+	padding: 20px;
 }
 
 section li{
