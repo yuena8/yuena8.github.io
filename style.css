@@ -94,6 +94,10 @@ section li{
   font-size: 14px;
 
 }
+
+.collections li{
+	list-style-type: none;
+}
 li a {
 	display: block;
   font-family: arial black;
