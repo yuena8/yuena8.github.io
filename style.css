@@ -34,7 +34,7 @@ tr:first-child{
 ul {
 	font-family: arial;
 }
-
+/* Flexbox code from lecture 05 */
 #main {
 	min-height: 300px;
 	margin: 0px;
@@ -59,4 +59,19 @@ ul {
 	background: #ccccff;
 	flex: 1 6 20%;
 	order: 1;
+}
+
+@media all and (max-width: 640px) {
+	#main, #page {
+		flex-direction: column;
+	}
+
+	#main > article, #main > nav {
+		order: 0;
+	}
+
+	#main > nav, header, footer {
+		min-height: 50px;
+		max-height: 50px;
+	}
 }
