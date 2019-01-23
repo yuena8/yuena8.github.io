@@ -7,13 +7,28 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white; 
+  background: silver;
+}
 
+::selection {
+  color: white; 
+  background: silver;
+}
 a {
 	color:#AEAEAE;
   text-decoration:none;
 }
 a:hover{
 	color: #757575;
+}
+mark{
+  background-color:white;
+  padding: 5px;
+  border-radius: 50%;
+  
+}
 }
 h1 {
 	color:#757575;
@@ -57,7 +72,8 @@ td, th {
     padding: 10px;
 }
 tr {
-    background-color: #BCBCBC;
+background-color: #BCBCBC;
+
 }
 th:hover{
 	color: #ffffff;
@@ -68,6 +84,9 @@ tr:first-child{
     color:#F0F0F0
 }
 
+.habit tr:first-child{
+  color: #757575
+}
 
 section li{
   list-style-type: circle;
