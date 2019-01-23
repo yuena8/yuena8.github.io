@@ -98,6 +98,13 @@ tr:first-child{
 	color: #757575
 }
 
+.weekly tr:first-child{
+	color: #757575;
+}
+.weekly th:nth-child(2){
+	width: 300px;
+}
+
 section li{
   list-style-type: circle;
   padding: 5px;
