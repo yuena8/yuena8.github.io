@@ -18,11 +18,11 @@ body {
 }
 
 img{
-	max-width: 250px;
+	max-width: 75%;
 	filter:grayscale(80%);
 }
 img{
-	opacity:0.5;
+	opacity:0.6;
 }
 
 img:hover{
@@ -97,37 +97,6 @@ tr:first-child{
     color:#F0F0F0
 }
 
-.habit tr:first-child{
-	color: #757575;
-}
-
-.weekly tr:first-child{
-	color: #757575;
-}
-
-.weekly th:first-child{
-	font-family:arial black;
-	font-size: 1.5em;
-	color: #F0F0F0
-}
-
-.weekly th:nth-child(2){
-	width: 300px;
-	background-color:white;
-	text-align:left;
-	text-transform:capitalize;
-}
-
-.weekly tr,th{
-	padding: 20px;
-}
-.weekly table{
-	border:none;
-}
-.weekly th:hover{
-	border: 1px solid #f0f0f0;
-	color: #757575;
-}
 section li{
   list-style-type: circle;
   padding: 5px;
@@ -135,19 +104,7 @@ section li{
 
 }
 
-.collections li{
-	list-style-type: none;
-	padding: 5px;
-	display:block;
-	background-color: #BCBCBC;
-	color: #F0F0F0;
-	max-width: 250px;
-	text-align:center;
-}
-.collections ul{
-	padding: 5px;
-	margin: 5px;
-}
+
 li a {
 	display: block;
 	font-family: arial black;
