@@ -186,6 +186,7 @@ header{
 	border-radius: 15pt;
 	max-width: 1000px;
 	text-align:center;
+	justify-content: center;
 	color:#AEAEAE;
 	font-family: arial black;
 	font-size: 2em;
