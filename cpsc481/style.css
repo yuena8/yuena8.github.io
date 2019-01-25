@@ -182,10 +182,10 @@ header{
 	max-height:100px;
 	margin: 0 auto;
 	padding: 0px;
+	padding-top: 50px;
 	min-height: 100px;
 	border-radius: 15pt;
 	max-width: 1000px;
-	text-align:center;
 	justify-content: center;
 	color:#AEAEAE;
 	font-family: arial black;
