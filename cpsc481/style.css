@@ -179,12 +179,14 @@ header{
   	background-repeat: no-repeat;
     background-size:auto;
 	background-attachment: scroll;
-	max-height:284px;
+	max-height:100px;
 	margin: 0 auto;
 	padding: 0px;
-	min-height: 284px;
+	min-height: 100px;
 	border-radius: 15pt;
 	max-width: 1000px;
 	text-align:center;
 	color:#AEAEAE;
+	font-family: arial black;
+	font-size: 2em;
 }
