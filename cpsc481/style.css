@@ -185,6 +185,6 @@ header{
 	min-height: 284px;
 	border-radius: 15pt;
 	max-width: 1000px;
-	/*text-align:center;*/
+	text-align:center;
 	color:#AEAEAE;
 }
