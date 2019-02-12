@@ -6,6 +6,7 @@
 .calculator {
   min-width: 600px;
   max-width: 600px;
+  display: flex;
 }
 @media handheld and (orientation:landscape) {
   .calculator{
