@@ -1,13 +1,59 @@
+.display {
+  padding: 30px;
+}
+#inputarea {
+  border:none;
+  width: 500px;
+  padding: 20px;
+  font-size: 2em;
+}
+#equationarea{
+  font-size: 1.3em;
+}
+
 .buttonpad {
-  display: flex;
   padding: 5px;
 }
 
 .calculator {
-  min-width: 600px;
-  max-width: 600px;
-  display: flex;
+  background: #E3D8F1;
+  min-width:600px;
+  max-width:600px;
+  min-height: 500px;
 }
+
+.row1,.row2,.row3,.row4,.row5 {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  padding: 5px;
+}
+
+.button-wrapper{
+  padding: 5px;
+}
+
+.clear{
+  width: 270px;
+}
+
+button {
+  padding: 10px;
+  width:130px;
+  background: #662843;
+  border:none;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: #845A6D;
+}
+.clear-wrapper {
+  min-width: 300px;
+}
+
+
 @media handheld and (orientation:landscape) {
   .calculator{
     width: 100%;
