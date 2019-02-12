@@ -3,6 +3,10 @@
   padding: 5px;
 }
 
+.calculator {
+  min-width: 600px;
+  max-width: 600px;
+}
 @media handheld and (orientation:landscape) {
   .calculator{
     width: 100%;
