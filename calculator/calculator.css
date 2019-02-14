@@ -18,6 +18,8 @@
 }
 #equationarea{
   font-size: 1.3em;
+  height:50px;
+  font-family: arial;
 }
 
 .buttonpad {
