@@ -1,7 +1,3 @@
-.body{
-  max-width:600px;
-}
-
 .centerwrapper{
   text-align:center;
   width:100%;
@@ -31,8 +27,6 @@
 
 .calculator {
   background: #E3D8F1;
-  min-width:600px;
-  max-width:600px;
   min-height: 500px;
   display:inline-block;
 }
