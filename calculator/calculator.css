@@ -76,6 +76,8 @@ button:hover{
     height: 100%;
   }
 }
-@media (min-width: 600px) {
+@media {
+  .centerwrapper{
   max-width: 600px;
+  }
 }
