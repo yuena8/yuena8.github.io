@@ -15,11 +15,13 @@
   padding: 20px;
   font-size: 2em;
   color: #662843;
+  text-align: right;
 }
 #equationarea{
   font-size: 1.3em;
   height:50px;
   font-family: arial;
+  text-align: right;
 }
 
 .buttonpad {
